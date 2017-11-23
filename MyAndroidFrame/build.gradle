@@ -71,8 +71,8 @@ dependencies {
     releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
 
     //极光推送
-//    implementation 'cn.jiguang.sdk:jpush:3.0.9'
-//    implementation 'cn.jiguang.sdk:jcore:1.1.7'
+//    implementation 'cn.jiguang.sdk:jpush:3.1.0'
+//    implementation 'cn.jiguang.sdk:jcore:1.1.8'
 
     //其他
     implementation 'com.blankj:utilcode:1.9.8'
