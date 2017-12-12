@@ -4,7 +4,23 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.lvgodness.myandroid.activity.MainActivity">
+
+    <com.lvgodness.myandroid.view.MyToolbar
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/colorPrimary"
+        app:title="test" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        app:title="Toolbar"
+        app:titleTextColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="54dp"
+        app:navigationIcon="?android:homeAsUpIndicator"
+        android:background="@color/colorPrimary" />
 
     <TextView
         android:layout_width="wrap_content"
