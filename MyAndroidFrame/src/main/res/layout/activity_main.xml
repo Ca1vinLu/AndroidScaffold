@@ -11,16 +11,16 @@
         android:layout_width="match_parent"
         android:layout_height="48dp"
         android:background="@color/colorPrimary"
-        app:title="test" />
+        app:title="Toolbar" />
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        app:title="Toolbar"
-        app:titleTextColor="@color/white"
         android:layout_width="match_parent"
-        android:layout_height="54dp"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
         app:navigationIcon="?android:homeAsUpIndicator"
-        android:background="@color/colorPrimary" />
+        app:title="Toolbar"
+        app:titleTextColor="@color/white" />
 
     <TextView
         android:layout_width="wrap_content"

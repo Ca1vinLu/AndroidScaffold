@@ -6,10 +6,12 @@
         android:layout_width="32dp"
         android:layout_height="32dp"
         android:layout_centerVertical="true"
-        android:layout_marginStart="8dp"
+        android:layout_marginStart="12dp"
         android:background="?selectableItemBackgroundBorderless"
+        android:backgroundTint="@color/white"
         android:padding="4dp"
-        android:src="@drawable/arrow_left" />
+        android:src="?android:homeAsUpIndicator"
+        android:tint="@color/white" />
 
     <TextView
         android:id="@+id/title"
@@ -19,5 +21,6 @@
         android:gravity="center"
         android:text="hello"
         android:textColor="@color/white"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:textStyle="bold" />
 </merge>

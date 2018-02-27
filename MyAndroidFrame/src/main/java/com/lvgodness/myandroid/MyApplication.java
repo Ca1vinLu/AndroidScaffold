@@ -1,6 +1,7 @@
 package com.lvgodness.myandroid;
 
 import android.app.Application;
+import android.support.multidex.MultiDexApplication;
 
 import com.blankj.utilcode.util.LogUtils;
 import com.blankj.utilcode.util.Utils;
@@ -14,7 +15,7 @@ import okhttp3.OkHttpClient;
  * Created by LYZ on 2017/10/23 0023.
  */
 
-public class MyApplication extends Application {
+public class MyApplication extends MultiDexApplication {
     private static MyApplication application;
 
     public static Application getInstance() {
