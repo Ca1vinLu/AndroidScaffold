@@ -27,4 +27,6 @@
     <color name="grey_d4d3d3">#d4d3d3</color>
     <color name="grey_edf0ef">#edf0ef</color>
 
+    <color name="black_overlay">#66000000</color>
+
 </resources>
