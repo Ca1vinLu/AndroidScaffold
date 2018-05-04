@@ -95,8 +95,8 @@ dependencies {
 
 
     //Android Test
-    androidTestImplementation 'com.android.support.test:runner:1.0.1'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     testImplementation 'junit:junit:4.12'
 
 
@@ -122,11 +122,9 @@ dependencies {
     implementation 'com.alibaba:fastjson:1.1.67.android'
 
     //Glide
-    implementation("com.github.bumptech.glide:glide:4.6.1") {
-        exclude group: "com.android.support"
-    }
-    implementation "com.github.bumptech.glide:okhttp3-integration:4.6.1"
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.6.1'
+    implementation "com.github.bumptech.glide:glide:4.7.1"
+    implementation "com.github.bumptech.glide:okhttp3-integration:4.7.1"
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
     implementation 'jp.wasabeef:glide-transformations:2.0.2'
 
     //NetWork相关
